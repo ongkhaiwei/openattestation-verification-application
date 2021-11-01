@@ -30,7 +30,7 @@ export default function Success() {
           >
             <h2>Vaccination HealthCert &rarr;</h2>
             <p>
-              Vaccination HealthCert Verification <font color="red">Failed</font>
+              Vaccination HealthCert Verification <font color="green">Success</font>
             </p>
             <p>&nbsp;</p>
             <p>

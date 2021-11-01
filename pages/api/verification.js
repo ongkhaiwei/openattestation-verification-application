@@ -18,7 +18,7 @@ const handler = nextConnect()
 handler.use(middleware)
 
 handler.post(async (req, res) => {
-  if (req.files.length == undefined) {
+  if (req.files.cert[0].path == undefined) {
     // File does not exist.
     res.redirect('/nofile')
     
